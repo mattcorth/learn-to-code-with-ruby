@@ -1,0 +1,23 @@
+=begin
+  Another way to iterate over an array is while and until loops
+  - while: loop while condition is true
+  - until: loop until condition is true
+=end
+
+animals = ["Lion", "Zebra", "Baboon", "Cheetah"]
+
+i = 0
+
+while i < animals.length # 4 < 4
+  puts "The index is #{i} and the animal is #{animals[i]}"
+  i += 1
+end
+
+puts
+
+i = 0
+
+until i == animals.length # 4 == 4
+  puts "The index is #{i} and the animal is #{animals[i]}"
+  i += 1
+end
